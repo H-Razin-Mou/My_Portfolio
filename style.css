@@ -81,7 +81,7 @@ header nav ul li{
 header nav ul li a{
     display: inline-block;
     text-decoration: none;
-    padding: 7px 10px;
+    padding: 4px 10px;
     margin: 7px 0;
     color: var(--bgColor);
     font-weight: 400;
@@ -158,4 +158,94 @@ transition: 0.4s;
 
 .mobile-nav-active header .footer{
     left: 0;
+}
+
+
+
+
+/* main body section */
+main{
+    margin-left: 300px;
+    background-color: var(--bgColor);
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 1050px) {
+    main{
+        margin-left: 0;
+    }
+    
+}
+
+
+
+/* home section */
+#home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Desktop\ -\ 1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 70px;
+    position: relative;
+}
+
+#home::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.431);
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+#home .home-row{
+    z-index: 1;
+}
+
+#home .home-row h1{
+    font-size: 60px;
+    color: var(--bgColor);
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 10px;
+    line-height: 70px;
+}
+
+/* #home .home-row h1 span{
+    color: var(--themeColor);
+} */
+
+#home .home-row p{
+    color: var(--bgColor);
+font-size: 30px;
+font-weight: 500;
+}
+
+#home .home-row p span{
+    border-bottom: 4px solid var(--themeColor);
+}
+
+/* mobile view */
+@media only screen and (max-width: 670px) {
+    #header{
+        padding: 30px;
+    }
+    #home .home-row h1 {
+        font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 50px;
+    }
+    #home .home-row h1 br{
+        display: none;
+    }
+    #home .home-row p{
+    font-size: 20px;
+    font-weight: 400;
+    }
 }
