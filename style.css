@@ -708,3 +708,42 @@ font-weight: 600;
 font-size: 14px;
 font-weight: 500;
 }
+
+
+/* mobile view */
+@media only screen and (max-width:850px){
+    #service{
+        padding:50px 15px ;
+    }
+    
+    #service .service-row{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 15px;
+    }
+}
+
+@media only screen and (max-width:550px){
+    #service .service-row{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 15px;
+    }
+}
+
+
+
+
+/* contact section */
+#contact{
+    padding:70px 30px ;
+}
+
+#contact .contact-row{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+#contact .contact-row {
+    
+}
