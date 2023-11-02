@@ -744,6 +744,112 @@ font-weight: 500;
     width: 100%;
 }
 
-#contact .contact-row {
+#contact .contact-row .contact-left{
+    flex-basis: 40%;
+    min-width: 40%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+    border-radius: 4px;
+    padding: 30px;
+}
+
+#contact .contact-row .contact-left .icon-box {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 30px 0;
+}
+
+#contact .contact-row .contact-left .icon-box .icon i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid var(--themeColor);
+    text-align: center;
+    line-height: 47px;
+    font-size: 20px;
+    color: var(--themeColor);
+    transition: 0.5s;
+}
+
+#contact .contact-row .contact-left .icon-box:hover .icon i{
+    background-color: var(--themeColor);
+    color: var(--bgColor);
+}
+
+#contact .contact-row .contact-left .icon-box .info h4{
+font-size: 20px;
+font-weight: 600;
+color: var(--sideBGColor);
+}
+
+#contact .contact-row .contact-left .icon-box .info h4 + p{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--textColor);
+}
+
+#contact .contact-row .contact-right{
+    flex-basis: 60%;
+    min-width: 60%;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+    border-radius: 4px;
+    padding: 30px;
+}
+
+#contact .contact-row .contact-right form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+#contact .contact-row .contact-right form input,textarea {
+    display: block;
+    width: 100%;
+    margin: 2px 0;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--textColor);
+    border: 2px solid lightgray;
+    border-radius: 2px;
+    outline: none;
+    resize: none;
+    transition: 0.5s;
+}
+
+#contact .contact-row .contact-right form input:focus,textarea:focus{
+border: 2px solid var(--themeColor);
+}
+
+#contact .contact-row .contact-right form input[type=submit] {
+    background-color: var(--themeColor);
+    color: var(--bgColor);
+    border: 2px solid var(--themeColor);
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+
+/* mobile view */
+@media only screen and (max-width:800px){
+    #contact{
+        padding:50px;
+    }
     
+    #contact .contact-row{
+        flex-direction: column;
+        gap: 10px;
+    }
+     
+}
+
+@media only screen and (max-width:500px){
+    #contact{
+        padding:50px 10px;
+    }
 }
