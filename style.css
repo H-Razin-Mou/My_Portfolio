@@ -112,7 +112,7 @@ header .footer {
     background-color: var(--sideBGColor);
     width: 300px;
     color: var(--bgColor);
-    font-size: 14px;
+    font-size: 10px;
     letter-spacing: 0.6px;
     padding: 15px;
     position: fixed;
@@ -128,13 +128,13 @@ header .footer {
     position: fixed;
     top: 25px;
     right: 25px;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
     color: var(--bgColor);
     background-color: var(--themeColor);
     text-align: center;
-    line-height: 42px;
+    line-height: 30px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
     display: none;
@@ -556,7 +556,7 @@ font-weight: 500;
 
 
 /* portfolio section */
-#porfolio{
+#portfolio{
     padding: 70px 30px;
     background-color: var(--bgColor);
 }
