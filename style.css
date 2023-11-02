@@ -549,3 +549,13 @@ font-weight: 500;
         flex-basis: 100%;
     }
 }
+
+
+
+
+
+/* portfolio section */
+#porfolio{
+    padding: 70px 30px;
+    background-color: var(--bgColor);
+}
