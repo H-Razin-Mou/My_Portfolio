@@ -11,10 +11,10 @@
 /* global variable */
 :root {
     --sideBGColor: #040b14;
-    --themeColor: #00a78e;
-    --iconBGColor: #2c2f3f;
-    --textColor: #525252;
-    --bgColor: #f7f7f7;
+    --themeColor: #379b43;
+    --iconBGColor: #324735;
+    --textColor: #4c4b4b;
+    --bgColor: #e4e2e2;
 }
 
 
@@ -183,7 +183,7 @@ main {
 
 
 
-/* home section */
+/* --------------------home section--------------------- */
 #home {
     height: 100vh;
     width: 100%;
@@ -201,7 +201,7 @@ main {
     content: '';
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.431);
+    background-color: rgba(0, 0, 0, 0.436);
     position: absolute;
     top: 0;
     left: 0;
@@ -220,9 +220,9 @@ main {
     line-height: 70px;
 }
 
-/* #home .home-row h1 span{
-    color: var(--themeColor);
-} */
+#home .home-row h1 span{
+    color: rgb(81, 239, 81)
+}
 
 #home .home-row p {
     color: var(--bgColor);
@@ -516,7 +516,7 @@ main {
 
 #resume .resume-row .resume-cols .sp-box {
     padding: 4px 22px;
-    background-color: lightblue;
+    background-color: rgb(201, 249, 211);
     color: var(--textColor);
     border-radius: 4px;
     font-size: 14px;
