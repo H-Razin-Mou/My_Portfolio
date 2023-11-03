@@ -14,7 +14,7 @@
     --themeColor: #379b43;
     --iconBGColor: #324735;
     --textColor: #4c4b4b;
-    --bgColor: #e4e2e2;
+    --bgColor: #f4f4f4;
 }
 
 
@@ -613,13 +613,13 @@ main {
 }
 
 #portfolio .port-row .port-item .port-info h4 {
-    color: var(--bgColor);
+    color: white;
     font-size: 25px;
     font-weight: 600;
 }
 
 #portfolio .port-row .port-item .port-info h4+p {
-    color: var(--bgColor);
+    color: white;
     font-size: 14px;
 }
 
@@ -629,7 +629,7 @@ main {
     font-size: 20px;
     width: 45px;
     height: 45px;
-    background-color: var(--bgColor);
+    background-color: white;
     border-radius: 50%;
     color: var(--themeColor);
     line-height: 46px;

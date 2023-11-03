@@ -28,3 +28,16 @@ window.addEventListener('scroll',function(){
         }
     });
 });
+
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyCAC2g7Aq7XjNTXvZYwAkP22gDFyy6yzrRy4aIiTmPSKn37G_hYZfK4Sky1caLeG5XjA/exec'
+
+const form = document.forms['contact-form']
+
+form.addEventListener('submit',e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'post',body: new FormData(form)})
+    .then(response => alert("Message sent successfully"))
+    .then(() => {window.location.reload();})
+    .catch(error => console.error('Error!',error.message))
+})
