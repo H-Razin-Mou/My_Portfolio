@@ -126,15 +126,15 @@ header .footer {
 /* mobile navbar toggle */
 #MenuBtn {
     position: fixed;
-    top: 25px;
+    top: 35px;
     right: 25px;
-    font-size: 10px;
-    width: 20px;
-    height: 20px;
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
     color: var(--bgColor);
     background-color: var(--themeColor);
     text-align: center;
-    line-height: 30px;
+    line-height: 40px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
     display: none;
@@ -185,7 +185,7 @@ main {
 #home {
     height: 100vh;
     width: 100%;
-    background-image: url(images/home-img.png);
+    background-image: url(images/background-img.jpg);
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -779,13 +779,13 @@ font-weight: 500;
 }
 
 #contact .contact-row .contact-left .icon-box .info h4{
-font-size: 20px;
+font-size: 15px;
 font-weight: 600;
 color: var(--sideBGColor);
 }
 
 #contact .contact-row .contact-left .icon-box .info h4 + p{
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 500;
     color: var(--textColor);
 }
@@ -810,8 +810,8 @@ color: var(--sideBGColor);
     display: block;
     width: 100%;
     margin: 2px 0;
-    padding: 10px 20px;
-    font-size: 15px;
+    padding: 8px 20px;
+    font-size: 12px;
     font-weight: 500;
     color: var(--textColor);
     border: 2px solid lightgray;
@@ -829,7 +829,7 @@ border: 2px solid var(--themeColor);
     background-color: var(--themeColor);
     color: var(--bgColor);
     border: 2px solid var(--themeColor);
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 400;
     cursor: pointer;
 }
