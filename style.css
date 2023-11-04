@@ -18,7 +18,7 @@
 }
 
 
-/* header */
+/* -------------------------------header------------------------ */
 header {
     height: 100vh;
     width: 300px;
@@ -71,7 +71,7 @@ header .profile .social-icons a:hover {
 
 
 
-/* navbar */
+/* ------------------------------navbar--------------------------- */
 header nav {
     margin-top: 40px;
 }
@@ -108,7 +108,7 @@ header nav ul li .active i {
 
 
 
-/* footer */
+/*----------------------------- footer --------------------------- */
 header .footer {
     text-align: center;
     background-color: var(--sideBGColor);
@@ -167,7 +167,7 @@ header .footer {
 
 
 
-/* main body section */
+/* ========= main body section ======= */
 main {
     margin-left: 300px;
     background-color: var(--bgColor);
@@ -261,7 +261,7 @@ main {
 
 
 
-/* about section */
+/* -------------------------about section-------------------- */
 #about {
     padding: 70px 30px;
     background-color: white;
@@ -465,7 +465,7 @@ main {
 
 
 
-/* resume section */
+/* ------------------------ resume section -------------------------- */
 #resume {
     padding: 70px 30px;
     background-color: white;
@@ -562,7 +562,7 @@ main {
 
 
 
-/* portfolio section */
+/* ------------------------- portfolio section---------------------------- */
 #portfolio {
     padding: 70px 30px;
     background-color: var(--bgColor);
@@ -602,7 +602,7 @@ main {
     align-items: center;
     gap: 10px;
     transform: scale(0);
-    transition: 0.4s;
+    transition: 0.6s;
     border-radius: 10px;
     visibility: hidden;
 }
@@ -633,7 +633,7 @@ main {
     border-radius: 50%;
     color: var(--themeColor);
     line-height: 46px;
-    transition: 0.4s;
+    transition: 0.6s;
 }
 
 #portfolio .port-row .port-item .port-info a:hover {
@@ -652,7 +652,16 @@ main {
     #portfolio .port-row {
 
         grid-template-columns: repeat(2, 1fr);
-        grid-gap: 15px;
+        grid-gap: 10px;
+    }
+
+    #portfolio .port-row .port-item .port-info h4 {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    
+    #portfolio .port-row .port-item .port-info h4+p {
+        font-size: 8px;
     }
 }
 
@@ -669,7 +678,7 @@ main {
 
 
 
-/* service section */
+/* --------------------------service section-------------------------- */
 #service {
     padding: 70px 30px;
     background-color: white;
@@ -740,7 +749,7 @@ main {
 
 
 
-/* contact section */
+/* ---------------------------------- contact section-------------------------- */
 #contact {
     padding: 70px 30px;
 }
